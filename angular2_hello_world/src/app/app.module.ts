@@ -5,10 +5,11 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
+import { UserItemComponent } from './user-item/user-item.component';
 
 @NgModule({
   declarations: [
-    AppComponent, HelloWorldComponent
+    AppComponent, HelloWorldComponent, UserItemComponent
   ],
   imports: [
     BrowserModule,
