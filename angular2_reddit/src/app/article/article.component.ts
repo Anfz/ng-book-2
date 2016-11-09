@@ -20,12 +20,12 @@ export class ArticleComponent implements OnInit {
   }
   
   voteUp() {
-  	this.article.votes += 1; 
+  	this.article.voteUp(); 
   	return false; // return false stops the page from reloading
   }
 
   voteDown() {
-  	this.article.votes -=1; 
+  	this.article.voteDown(); 
   	return false;
   }
 
